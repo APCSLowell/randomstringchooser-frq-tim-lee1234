@@ -12,7 +12,7 @@ private List<string> words;
 
   public string getNext()
   {
-    if (words.size > 0)
+    if (words.size() > 0)
       return words.remove((int) (Math.random * words.size()));
     return "NONE";
 }
